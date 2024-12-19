@@ -3,7 +3,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f8f4ff;
+  background-color: #ff278c62;
 }
 
 table {
@@ -12,7 +12,15 @@ table {
   font-family: sans-serif;
   font-size: 0.8rem;
   letter-spacing: 1px;
+  width: 100%;
 }
+
+.header,
+.header th,
+.header td {
+  border: none;
+}
+
 caption {
   caption-side: bottom;
   padding: 10px;
@@ -38,6 +46,11 @@ tfoot th {
 }
 tfoot td {
   font-weight: bold;
+}
+
+hr {
+  border-style: dashed;
+  margin: 50px 0;
 }
 
 img {
